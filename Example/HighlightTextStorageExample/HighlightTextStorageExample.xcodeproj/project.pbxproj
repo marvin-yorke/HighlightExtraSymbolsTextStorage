@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584B58FB1AF244CA0031874C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B58FA1AF244CA0031874C /* main.m */; };
+		584B58FE1AF244CA0031874C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B58FD1AF244CA0031874C /* AppDelegate.m */; };
+		584B59011AF244CA0031874C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B59001AF244CA0031874C /* ViewController.m */; };
+		584B59041AF244CA0031874C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B59021AF244CA0031874C /* Main.storyboard */; };
+		584B59061AF244CA0031874C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584B59051AF244CA0031874C /* Images.xcassets */; };
+		584B59151AF244CA0031874C /* HighlightTextStorageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B59141AF244CA0031874C /* HighlightTextStorageExampleTests.m */; };
+		584B59231AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B59221AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584B590F1AF244CA0031874C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584B58ED1AF244CA0031874C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584B58F41AF244CA0031874C;
+			remoteInfo = HighlightTextStorageExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		584B58F51AF244CA0031874C /* HighlightTextStorageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighlightTextStorageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584B58F91AF244CA0031874C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584B58FA1AF244CA0031874C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584B58FC1AF244CA0031874C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584B58FD1AF244CA0031874C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584B58FF1AF244CA0031874C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		584B59001AF244CA0031874C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		584B59031AF244CA0031874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584B59051AF244CA0031874C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		584B590E1AF244CA0031874C /* HighlightTextStorageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighlightTextStorageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584B59131AF244CA0031874C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584B59141AF244CA0031874C /* HighlightTextStorageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighlightTextStorageExampleTests.m; sourceTree = "<group>"; };
+		584B59211AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighlightExtraSymbolsTextStorage.h; path = ../../HighlightExtraSymbolsTextStorage.h; sourceTree = "<group>"; };
+		584B59221AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighlightExtraSymbolsTextStorage.m; path = ../../HighlightExtraSymbolsTextStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584B58F21AF244CA0031874C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584B590B1AF244CA0031874C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584B58EC1AF244CA0031874C = {
+			isa = PBXGroup;
+			children = (
+				584B59211AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.h */,
+				584B59221AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.m */,
+				584B58F71AF244CA0031874C /* HighlightTextStorageExample */,
+				584B59111AF244CA0031874C /* HighlightTextStorageExampleTests */,
+				584B58F61AF244CA0031874C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584B58F61AF244CA0031874C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584B58F51AF244CA0031874C /* HighlightTextStorageExample.app */,
+				584B590E1AF244CA0031874C /* HighlightTextStorageExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584B58F71AF244CA0031874C /* HighlightTextStorageExample */ = {
+			isa = PBXGroup;
+			children = (
+				584B58FC1AF244CA0031874C /* AppDelegate.h */,
+				584B58FD1AF244CA0031874C /* AppDelegate.m */,
+				584B58FF1AF244CA0031874C /* ViewController.h */,
+				584B59001AF244CA0031874C /* ViewController.m */,
+				584B59021AF244CA0031874C /* Main.storyboard */,
+				584B59051AF244CA0031874C /* Images.xcassets */,
+				584B58F81AF244CA0031874C /* Supporting Files */,
+			);
+			path = HighlightTextStorageExample;
+			sourceTree = "<group>";
+		};
+		584B58F81AF244CA0031874C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584B58F91AF244CA0031874C /* Info.plist */,
+				584B58FA1AF244CA0031874C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		584B59111AF244CA0031874C /* HighlightTextStorageExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				584B59141AF244CA0031874C /* HighlightTextStorageExampleTests.m */,
+				584B59121AF244CA0031874C /* Supporting Files */,
+			);
+			path = HighlightTextStorageExampleTests;
+			sourceTree = "<group>";
+		};
+		584B59121AF244CA0031874C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584B59131AF244CA0031874C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584B58F41AF244CA0031874C /* HighlightTextStorageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584B59181AF244CA0031874C /* Build configuration list for PBXNativeTarget "HighlightTextStorageExample" */;
+			buildPhases = (
+				584B58F11AF244CA0031874C /* Sources */,
+				584B58F21AF244CA0031874C /* Frameworks */,
+				584B58F31AF244CA0031874C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighlightTextStorageExample;
+			productName = HighlightTextStorageExample;
+			productReference = 584B58F51AF244CA0031874C /* HighlightTextStorageExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584B590D1AF244CA0031874C /* HighlightTextStorageExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584B591B1AF244CA0031874C /* Build configuration list for PBXNativeTarget "HighlightTextStorageExampleTests" */;
+			buildPhases = (
+				584B590A1AF244CA0031874C /* Sources */,
+				584B590B1AF244CA0031874C /* Frameworks */,
+				584B590C1AF244CA0031874C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584B59101AF244CA0031874C /* PBXTargetDependency */,
+			);
+			name = HighlightTextStorageExampleTests;
+			productName = HighlightTextStorageExampleTests;
+			productReference = 584B590E1AF244CA0031874C /* HighlightTextStorageExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584B58ED1AF244CA0031874C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Maxim Smirnov";
+				TargetAttributes = {
+					584B58F41AF244CA0031874C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					584B590D1AF244CA0031874C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 584B58F41AF244CA0031874C;
+					};
+				};
+			};
+			buildConfigurationList = 584B58F01AF244CA0031874C /* Build configuration list for PBXProject "HighlightTextStorageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584B58EC1AF244CA0031874C;
+			productRefGroup = 584B58F61AF244CA0031874C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584B58F41AF244CA0031874C /* HighlightTextStorageExample */,
+				584B590D1AF244CA0031874C /* HighlightTextStorageExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584B58F31AF244CA0031874C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B59041AF244CA0031874C /* Main.storyboard in Resources */,
+				584B59061AF244CA0031874C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584B590C1AF244CA0031874C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584B58F11AF244CA0031874C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B59231AF24E9E0031874C /* HighlightExtraSymbolsTextStorage.m in Sources */,
+				584B59011AF244CA0031874C /* ViewController.m in Sources */,
+				584B58FE1AF244CA0031874C /* AppDelegate.m in Sources */,
+				584B58FB1AF244CA0031874C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584B590A1AF244CA0031874C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B59151AF244CA0031874C /* HighlightTextStorageExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584B59101AF244CA0031874C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584B58F41AF244CA0031874C /* HighlightTextStorageExample */;
+			targetProxy = 584B590F1AF244CA0031874C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584B59021AF244CA0031874C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584B59031AF244CA0031874C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584B59161AF244CA0031874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		584B59171AF244CA0031874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584B59191AF244CA0031874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HighlightTextStorageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584B591A1AF244CA0031874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HighlightTextStorageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		584B591C1AF244CA0031874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HighlightTextStorageExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighlightTextStorageExample.app/HighlightTextStorageExample";
+			};
+			name = Debug;
+		};
+		584B591D1AF244CA0031874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HighlightTextStorageExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighlightTextStorageExample.app/HighlightTextStorageExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584B58F01AF244CA0031874C /* Build configuration list for PBXProject "HighlightTextStorageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B59161AF244CA0031874C /* Debug */,
+				584B59171AF244CA0031874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584B59181AF244CA0031874C /* Build configuration list for PBXNativeTarget "HighlightTextStorageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B59191AF244CA0031874C /* Debug */,
+				584B591A1AF244CA0031874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		584B591B1AF244CA0031874C /* Build configuration list for PBXNativeTarget "HighlightTextStorageExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B591C1AF244CA0031874C /* Debug */,
+				584B591D1AF244CA0031874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584B58ED1AF244CA0031874C /* Project object */;
+}
